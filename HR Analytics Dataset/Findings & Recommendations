@@ -1,0 +1,115 @@
+# HR Analytics: Key Findings and Recommendations
+
+## 1. Overall Employee Attrition
+
+**Finding**
+- The dataset contains 1,470 employees.
+- A total of 237 employees left the company.
+- The overall attrition rate is approximately **16.1%**.
+
+**Business implication**
+
+Employee attrition represents a potential challenge for workforce stability. The company should identify the employee groups most likely to leave and investigate the reasons behind their departures.
+
+**Recommendation**
+- Establish a regular attrition dashboard.
+- Monitor attrition by department, job role, salary, overtime, and tenure.
+- Track voluntary departures separately from other types of employee exits if the data becomes available.
+
+## 2. Department and Job Role Attrition
+
+**Finding**
+- Sales had the highest department attrition rate at **20%**, with 92 employees leaving.
+- Human Resources had an attrition rate of **19%**, with 12 employees leaving.
+- Research & Development had the lowest department attrition rate at **13%**, although it recorded the largest number of departures: 133.
+- Laboratory Technicians recorded the highest number of departures by job role (62), followed by Sales Executives (57) and Research Scientists (47).
+
+**Business implication**
+
+Sales and Human Resources have the highest attrition rates among departments. Research & Development has more departures in absolute numbers because it is a much larger department.
+
+The job-role figures identify where the largest numbers of departures occurred, but they do not establish which job roles have the highest attrition rates because the workbook does not provide the total workforce for each role.
+
+**Recommendation**
+- Investigate the reasons for departures in Sales and Human Resources.
+- Review workload, management support, compensation, and career-development opportunities in these departments.
+- Examine the working conditions and retention challenges of Laboratory Technicians and Sales Executives.
+- Calculate attrition rates for every job role before deciding which roles need the most urgent intervention.
+
+## 3. Compensation and Overtime
+
+**Finding**
+- Employees earning up to 5,000 had the highest salary-slab attrition rate at approximately **21%**.
+- Employees earning 5,000–10,000 had an attrition rate of approximately **11%**.
+- Employees earning 10,000–15,000 had an attrition rate of approximately **13%**.
+- Employees earning above 15,000 had the lowest rate, approximately **3%**.
+- Employees working overtime had an attrition rate of approximately **30.5%**, compared with **10.4%** for employees who did not work overtime.
+
+**Business implication**
+
+The overtime group had nearly three times the attrition rate of the non-overtime group. Lower-paid employees also showed higher attrition in this dataset.
+
+These are associations, not proof that overtime or salary alone caused employees to leave. Other factors, such as job role, tenure, and management practices, may contribute.
+
+**Recommendation**
+- Review overtime frequency, duration, staffing levels, and workload distribution.
+- Assess whether overtime is fairly compensated and whether employees have sufficient recovery time.
+- Review pay competitiveness and career progression for employees in the lowest salary band.
+- Compare overtime and attrition within individual departments and job roles to determine whether the pattern persists after accounting for workforce differences.
+
+## 4. Job Satisfaction, Work-Life Balance, and Work Environment
+
+**Finding**
+- Employees with the lowest job-satisfaction score (1) had an attrition rate of **22%**, compared with **11%** among employees with the highest score (4).
+- Employees with the lowest work-life-balance score (1) had an attrition rate of **31%**, compared with **14%** among employees scoring 3.
+- Employees with the lowest environment-satisfaction score (1) had an attrition rate of **25%**, compared with approximately **13%** among employees scoring 3 or 4.
+- Employees with the lowest job-involvement score (1) had an attrition rate of **33%**, compared with **9%** among employees scoring 4.
+
+**Business implication**
+
+Lower satisfaction, poorer perceived work-life balance, and lower job involvement are associated with higher attrition. These patterns suggest that employee experience should be part of the company's retention strategy.
+
+**Recommendation**
+- Conduct confidential employee surveys and structured stay interviews.
+- Investigate excessive workloads, scheduling problems, management relationships, and workplace conditions.
+- Strengthen manager training, recognition, employee participation, and career-development support.
+- Monitor satisfaction scores and attrition together to assess whether improvement initiatives are associated with better retention.
+
+## 5. Tenure and Career Progression
+
+**Finding**
+- Employees with one year at the company had an attrition rate of approximately **34%**.
+- Employees with zero years at the company had an attrition rate of approximately **36%**, although this group contains only 44 employees.
+- Employees with two years at the company had an attrition rate of approximately **21%**.
+- The highest-tenure categories contain very few employees, so their attrition rates can fluctuate substantially.
+- Employees with zero years since their last promotion had an attrition rate of approximately **18%**. The workbook does not show a simple, consistent relationship between time since promotion and attrition.
+
+**Business implication**
+
+The first years of employment appear to be a particularly important retention period. However, the promotion results do not support the conclusion that a longer wait for promotion consistently leads to higher attrition.
+
+**Recommendation**
+- Strengthen onboarding and support during the first 12–24 months.
+- Introduce structured check-ins with new employees and their managers.
+- Review early departures by job role, manager, salary, and overtime exposure.
+- Examine promotion eligibility, internal mobility, and career expectations rather than assuming that promotion delays are the primary cause of attrition.
+- Interpret rates for small tenure groups cautiously.
+
+## 6. Employee Demographics
+
+**Finding**
+- Employees aged 18–25 had the highest age-group attrition rate at **35%**.
+- Employees aged 26–35 had an attrition rate of **19%**.
+- Employees aged 36–45 had the lowest rate at **9%**.
+- Single employees had an attrition rate of **25%**, compared with **12%** among married employees and **10%** among divorced employees.
+- Male employees had an attrition rate of **17%**, compared with **14%** for female employees.
+
+**Business implication**
+
+Younger and single employees had higher observed attrition rates in this dataset. These differences may reflect differences in tenure, job roles, pay, career expectations, or other factors; demographic categories should not be treated as causes by themselves.
+
+**Recommendation**
+- Review early-career development, onboarding, mentoring, and internal mobility.
+- Compare attrition by age group alongside tenure, salary, job role, and overtime.
+- Use demographic results to identify questions for further analysis, not to make assumptions about individual employees.
+- Design retention initiatives around demonstrated workplace needs and apply them fairly across employee groups.
