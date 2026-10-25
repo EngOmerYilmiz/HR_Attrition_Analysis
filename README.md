@@ -161,7 +161,9 @@ HR-Analytics-Portfolio/
 *This is a suggested structure. Update the filenames to match the SQL scripts and data files actually included in the repository.*
 
 
-This repository documents the SQL analysis of employee attrition across six business-focused areas. Findings and recommendations will be added as the analysis progresses.
+## 11. Visuallization
+<img width="871" height="498" alt="Dashboard" src="https://github.com/user-attachments/assets/14f0837d-b742-4148-a5ba-a0a7cc0e26f3" />
+
 
 ## 12. Author
 
