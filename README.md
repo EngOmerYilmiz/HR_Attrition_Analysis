@@ -1,1 +1,170 @@
-# HR_Attrition_Analysis
+# HR Analytics Portfolio Project | Employee Attrition Analysis
+
+## 1. Project Overview
+
+This project analyzes employee data using **Microsoft SQL Server (SSMS)** to investigate employee attrition and identify workforce patterns that can support data-driven HR decisions.
+
+The analysis focuses on six key areas: overall attrition, departments and job roles, compensation and overtime, job satisfaction and work-life balance, tenure and career progression, and employee demographics.
+
+The goal is to transform raw HR data into meaningful insights that help organizations better understand employee turnover and identify potential opportunities to improve employee retention.
+
+## 2. Business Problem
+
+Employee attrition can increase recruitment costs, disrupt operations, reduce productivity, and lead to the loss of experienced employees.
+
+Organizations need to understand how attrition varies across workforce segments and whether factors such as compensation, overtime, job satisfaction, and career progression are associated with employees leaving.
+
+This project uses SQL-based analysis to investigate these questions and support evidence-based HR decision-making.
+
+## 3. Project Objectives
+
+- Measure the overall employee attrition rate.
+- Identify departments and job roles with higher attrition rates.
+- Examine the relationship between compensation, overtime, and attrition.
+- Investigate employee satisfaction and work-life balance.
+- Analyze the relationship between tenure, promotions, and employee turnover.
+- Compare attrition patterns across demographic groups.
+- Develop actionable recommendations based on the analytical findings.
+
+## 4. Main Analysis Questions
+
+### 1. Overall Employee Attrition
+**Business question:** What is the overall attrition rate, and how many employees have left the organization?
+
+Analysis focus:
+- Total employee count.
+- Number of employees who left.
+- Overall attrition rate.
+- Comparison of employees who left and those who stayed.
+
+### 2. Department & Job Role Analysis
+**Business question:** Which departments and job roles have the highest attrition rates?
+
+Analysis focus:
+- Attrition rate by department.
+- Attrition rate by job role.
+- Comparison of employee departures across workforce segments.
+- Identification of departments and roles requiring further investigation.
+
+### 3. Compensation & Overtime
+**Business question:** Are salary levels and overtime associated with higher attrition?
+
+Analysis focus:
+- Attrition by salary slab and monthly income.
+- Attrition among employees who work overtime versus those who do not.
+- Comparison of overtime and salary combinations.
+- Identification of workforce groups with potentially elevated attrition.
+
+### 4. Job Satisfaction & Work-Life Balance
+**Business question:** Which employee-experience factors are associated with attrition?
+
+Analysis focus:
+- Attrition by job satisfaction.
+- Attrition by work-life balance rating.
+- Comparison of satisfaction levels between employees who left and those who stayed.
+- Investigation of employee-experience patterns.
+
+### 5. Tenure & Career Progression
+**Business question:** Are employees with shorter tenure or fewer promotion opportunities more likely to leave?
+
+Analysis focus:
+- Attrition by years at the company.
+- Attrition by years in the current role.
+- Relationship between time since last promotion and attrition.
+- Comparison of attrition across career-progression groups.
+
+### 6. Employee Demographics
+**Business question:** How does attrition vary by age group, marital status, gender, and education field?
+
+Analysis focus:
+- Attrition by age group.
+- Attrition by marital status.
+- Attrition by gender.
+- Attrition by education field.
+- Comparison of attrition rates across demographic groups.
+
+## 5. Tools & Technologies
+
+- **Microsoft SQL Server:** Data analysis and querying.
+- **SQL Server Management Studio (SSMS):** SQL development and execution.
+- **SQL:** Data exploration, aggregation, filtering, conditional logic, joins, subqueries, CTEs, and window functions where appropriate.
+- **Microsoft Excel:** Dataset inspection and supporting data review.
+
+## 6. Key SQL Techniques
+
+The project applies SQL techniques including:
+
+- `SELECT`, `WHERE`, and `ORDER BY`
+- Aggregate functions such as `COUNT()`, `SUM()`, and `AVG()`
+- `GROUP BY` and `HAVING`
+- Conditional aggregation using `CASE WHEN`
+- Calculated metrics and percentage calculations
+- `JOIN` operations where multiple tables are required
+- Common Table Expressions (CTEs) and subqueries
+- Window functions where they add analytical value
+
+## 7. Key Performance Metrics
+
+The analysis will use relevant HR metrics, including:
+
+- **Employee Attrition Rate:** Percentage of employees who left the organization during the period represented by the dataset.
+- **Employee Count:** Number of employees represented in the dataset.
+- **Attrition Count:** Number of employees recorded as having left.
+- **Department Attrition Rate:** Attrition rate within each department.
+- **Job Role Attrition Rate:** Attrition rate within each job role.
+- **Overtime Attrition Rate:** Attrition rate among employees who work overtime compared with those who do not.
+
+For this employee-level dataset, the attrition rate can be calculated as:
+
+`Attrition Rate = (Employees Who Left / Total Employees) × 100`
+
+The denominator and treatment of missing records should be checked against the dataset's definitions.
+
+## 8. Expected Business Value
+
+The project aims to help HR teams:
+
+- Understand the scale and distribution of employee attrition.
+- Identify workforce segments that may require further investigation.
+- Evaluate whether compensation, overtime, satisfaction, and career progression are associated with attrition.
+- Prioritize employee-retention initiatives.
+- Support workforce planning through measurable indicators.
+
+Recommendations will be based on the actual analysis results rather than assumed relationships.
+
+## 9. Analytical Limitations
+
+This project primarily uses descriptive and comparative analysis. Observed associations do not establish that a particular factor causes employee attrition.
+
+Findings should be interpreted in the context of the dataset's coverage, definitions, and limitations. Demographic comparisons should be used responsibly and should not be treated as evidence that an individual's demographic characteristics determine their likelihood of leaving.
+
+## 10. Project Structure
+
+The repository can be organized as follows:
+
+```text
+HR-Analytics-Portfolio/
+│
+├── README
+├── data
+├── Visuallization/
+    ├──01_HR Analytics Dashboard.pbix
+    ├──02_Dashboard.JPG
+├──
+└── sql/
+    ├── 01_Attrition Analysis queries.sql
+    ├── 02_Create tables.sql
+    ├── 03_Load Data.sql
+
+```
+
+*This is a suggested structure. Update the filenames to match the SQL scripts and data files actually included in the repository.*
+
+
+This repository documents the SQL analysis of employee attrition across six business-focused areas. Findings and recommendations will be added as the analysis progresses.
+
+## 12. Author
+
+**HR Analytics | SQL Portfolio Project**
+
+This project demonstrates practical SQL skills, analytical thinking, and the ability to translate business questions into structured data analysis.
