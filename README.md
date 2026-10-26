@@ -99,9 +99,6 @@ The project applies SQL techniques including:
 - `GROUP BY` and `HAVING`
 - Conditional aggregation using `CASE WHEN`
 - Calculated metrics and percentage calculations
-- `JOIN` operations where multiple tables are required
-- Common Table Expressions (CTEs) and subqueries
-- Window functions where they add analytical value
 
 ## 7. Key Performance Metrics
 
